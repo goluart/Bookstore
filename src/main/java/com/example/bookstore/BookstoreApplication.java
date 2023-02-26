@@ -8,9 +8,6 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 
-import com.example.domain.Book;
-import com.example.domain.BookRepository;
-
 @SpringBootApplication
 public class BookstoreApplication {
 	private static final Logger log = LoggerFactory.getLogger(BookstoreApplication.class);
