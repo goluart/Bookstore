@@ -1,4 +1,4 @@
-package com.example.bookstore;
+package com.example.bookstore.web;
 
 import java.util.List;
 import java.util.Optional;
@@ -10,6 +10,10 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
+
+import com.example.bookstore.domain.Book;
+import com.example.bookstore.domain.BookRepository;
+import com.example.bookstore.domain.CategoryRepository;
 
 @Controller
 public class BookController {
